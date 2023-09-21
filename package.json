@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --experimental-policy --watch src/server.js"
+    "start": "node --watch src/server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "helmet": "^7.0.0",
+    "nodemailer": "^6.9.5",
+    "yup": "^1.2.0"
   }
 }
